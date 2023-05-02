@@ -1,0 +1,202 @@
+body {
+  background-color: #ba4949;
+}
+
+body section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+
+body section .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body section .container .head {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+body section .container .head .left {
+  display: flex;
+  flex-direction: row;
+}
+
+body section .container .head .left .bi-check-square-fill {
+  width: 20px;
+  margin: 0px 4px 0px 0px;
+}
+
+body section .container .head .left .pomo {
+  font-size: 20px;
+  margin: 0px 4px 0px 4px;
+}
+
+body section .container .head .right {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+body section .container .head .right .r-btn {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  background: rgba(255, 241, 241, 0.23);
+  border-radius: 5px;
+  border: none;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+body section .container .head .right .r-btn p {
+  font-size: 12px;
+}
+
+body section .container .line {
+  width: 600px;
+  height: 2px;
+  background-color: #a84242;
+  margin-top: 10px;
+}
+
+body section .container .main {
+  width: 500px;
+  height: 300px;
+  border: none;
+  color: white;
+  background: rgba(255, 241, 241, 0.23);
+  border-radius: 5px;
+  border: none;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+body section .container .main .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+body section .container .main .button .btn {
+  font-size: 16px;
+  gap: 5px;
+  background: none;
+  border: none;
+  color: white;
+  transition-timing-function: 1s;
+}
+
+body section .container .main .button .btn:hover {
+  border-radius: 5px;
+  background-color: #a84242;
+  opacity: 0.5;
+}
+
+body section .container .main .timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+body section .container .main .start {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-family: ArialRounded;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(186, 73, 73);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+}
+
+body section .container .main .pause {
+  display: none;
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-family: ArialRounded;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(186, 73, 73);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+}
+
+body section .container .again .num {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+body section .container .again p {
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+body section .container .heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+body section .container .heading button {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  background: rgba(255, 241, 241, 0.23);
+  border-radius: 5px;
+  border: none;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.second body {
+  background-color: rgb(56, 133, 138);
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  transition: background-color 0.5s ease-in-out 0s;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
